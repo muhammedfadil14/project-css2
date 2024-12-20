@@ -1,0 +1,50 @@
+body{background-color: rgb(0, 0, 255);
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.aC2cwsZx0BDGJ1SP5EqA7QHaFj&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
+}
+
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(270deg, #FF7E5F, #FEB47B, #36D1DC, #5B86E5);
+        
+        background-size: 800% 800%;
+        
+        animation: gradientAnimation 10s ease infinite;
+        
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.gradient-box {
+        background: rgba(255, 255, 255, 0.1);
+        
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        backdrop-filter: blur(5px);
+       
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes gradientAnimation {
+        0% {
+                background-position: 0% 50%;
+        }
+
+        50% {
+                background-position: 100% 50%;
+        }
+
+        100% {
+                background-position: 0% 50%;
+        }
+}
